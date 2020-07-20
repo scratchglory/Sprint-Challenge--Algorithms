@@ -106,8 +106,8 @@ class SortingRobot:
 
             while self.can_move_right():
                 # move right and compare
-                self.move_right()
                 self.swap_item()
+                self.move_right()
 
                 # returns 1, -1, None
                 # print(self.compare_item())
